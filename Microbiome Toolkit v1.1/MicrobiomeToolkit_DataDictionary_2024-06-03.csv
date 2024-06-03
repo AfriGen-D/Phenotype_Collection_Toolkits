@@ -15,18 +15,21 @@ body_site_other,project_metadata,,text,"(If Other) Specify host body site:",,,,,
 samp_collec_method,project_metadata,,radio,"Sample collection method:","1, OMNIgene (DNA Genotek) Kit | 2, Isohelix Kit | 3, Norgen Kit | 4, BioVision Kit | 5, BIOME-preserve (Anaerobe Systems) Kit | 777, Other",,,,,,,,,,,," @ONTOLOGY='OBI:0000659'"
 col_method_other,project_metadata,,text,"(If Other) Specify sample collection method:",,,,,,,"[samp_collec_method] = '777'",,,,,," @ONTOLOGY='OBI:0000659'"
 store_method,project_metadata,,text,"Sample storage method:",,,,,,,,,,,,," @ONTOLOGY='GECKO:0000026'"
-store_buffer,project_metadata,,radio,"Sample storage buffer:","1, OMNIgene | 2, Norgen | 3, Canvas | 4, Investigator-developed | 777, Other",,,,,,,,,,,," @ONTOLOGY='XCO:0000315'"
+store_buffer,project_metadata,,radio,"Sample storage buffer:","1, OMNIgene | 2, Norgen | 3, Canvas | 4, Zymo | 5, Investigator-developed | 777, Other",,,,,,,,,,,," @ONTOLOGY='XCO:0000315'"
 store_buffer_other,project_metadata,,text,"(If Other) Specify sample storage buffer:",,,,,,,"[store_buffer] = '777'",,,,,," @ONTOLOGY='XCO:0000315'"
 samp_mat_process,project_metadata,,text,"Sample processing method:",,,,,,,,,,,,," @ONTOLOGY='GENEPIO:0001253'"
-dna_ext_method,project_metadata,,radio,"Nucleic acid extraction method:","1, QIAamp (QIAGEN) Kit | 2, Macherel Nagel Kit | 3, Omega Bio-tek Kit | 4, Norgen Kit | 5, PureLink (Thermo Fisher) Kit | 6, BioVision Kit | 7, Isohelix Kit | 8, Zymo Kit | 777, Other",,,,,,,y,,,,," @ONTOLOGY='GENEPIO:0002093'"
+dna_ext_method,project_metadata,,radio,"Nucleic acid extraction method:","1, QIAamp (QIAGEN) Kit | 2, Macherel Nagel Kit | 3, Omega Bio-tek Kit | 4, Norgen Kit | 5, PureLink (Thermo Fisher) Kit | 6, BioVision Kit | 7, Isohelix Kit | 8, Zymo Kit | 9, QiaPowerFecal/Soil Kit | 777, Other",,,,,,,y,,,,," @ONTOLOGY='GENEPIO:0002093'"
 dna_ext_method_other,project_metadata,,text,"(If Other) Specify DNA extraction method:",,,,,,,"[dna_ext_method] = '777'",y,,,,," @ONTOLOGY='GENEPIO:0002093'"
+dna_ext_beadbeating,project_metadata,,yesno,"Was beadbeating included in the nucleic acid extraction process?",,,,,,,,,,,,,
 nucl_acid_amp,project_metadata,,text,"Nucleic acid amplification method:",,,,,,,,,,,,," @ONTOLOGY='BAO:0002450'"
 seq_meth,project_metadata,,radio,"Sequencing platform:","1, Illumina (e.g. MiSeq, HiSeq, NovaSeq, etc.) | 2, PacBio (e.g. RS, RS II, Sequel, Sequel II) | 3, Oxford Nanopore Technologies (e.g. MinION) | 4, Roche 454 Pyrosequencing | 777, Other",,,,,,,y,,,,," @ONTOLOGY='GENEPIO:0000071'"
 seq_meth_other,project_metadata,,text,"(If Other) Specify sequencing platform:",,,,,,,"[seq_meth] = '777'",y,,,,," @ONTOLOGY='GENEPIO:0000071'"
+seq_meth_illumina,project_metadata,,text,"(If Illumina) Specify Illumina sequencing platform:",,,,,,,"[seq_meth] = '1'",y,,,,," @ONTOLOGY='GENEPIO:0000071'"
 assay_type,project_metadata,,radio,"Assay type:","1, Amplicon | 2, Shotgun | 777, Other",,,,,,,y,,,,," @ONTOLOGY='OBI:0600047'"
 assay_type_other,project_metadata,,text,"(If Other) Specify assay type:",,,,,,,"[assay_type] = '777'",y,,,,," @ONTOLOGY='OBI:0600047'"
 amplicon,project_metadata,,checkbox,"Amplicon region:","1, V1 | 2, V2 | 3, V3 | 4, V4 | 5, V5 | 6, V6 | 7, V7 | 8, V8 | 9, V9 | 10, ITS region | 11, 16S Full-length | 14, 18S Full-length | 15, 18S Partial | 12, Whole Genome | 777, Other",,,,,,,y,,,,," @ONTOLOGY='OBI:0002767'"
 amplicon_other,project_metadata,,text,"(If Other) Specify amplicon region:",,,,,,,"[amplicon(777)] = '1'",y,,,,,
+primer_seq,project_metadata,,notes,"Specify primer sequences using for amplification:",,,,,,,,,,,,,
 outcome_of_interest,project_metadata,,text,"Outcome of interest:",,,,,,,,y,,,,," @ONTOLOGY='MONDO:0000001'"
 sample_size,project_metadata,,text,"Sample size:",,,number,,,,,y,,,,," @ONTOLOGY='GECKO:0000106'"
 project_metadata_version,project_metadata,,descriptive,"Project Metadata Instrument - Version 1.0 Released November 2022
