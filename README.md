@@ -31,14 +31,15 @@ Read up on the history and methodology of our project in our full documentation 
 
 1. In methods section of publications:
 
-  &quot;The data collection toolkits (DOI) used were developed by H3ABioNet/H3Africa and were compiled using a variety of resources described in https://GitHub.com/h3abionet/h3aphenstds and, from 2024 onwards, https://github.com/AfriGen-D/Phenotype_Collection_Toolkits. &quot;.
+&quot;The data collection toolkits (DOI) used were developed by H3ABioNet/H3Africa and were compiled using a variety of resources described in https://GitHub.com/h3abionet/h3aphenstds and, from 2024 onwards, https://github.com/AfriGen-D/Phenotype_Collection_Toolkits. &quot;.
 
 2. In acknowledgements section:
 
-  &quot;We acknowledge the use of data collection toolkits (DOI) from H3ABioNet/H3Africa which can be found, including associated references, at https://GitHub.com/h3abionet, funded by the H3Africa NIH grant U24HG006941.&quot;
+&quot;We acknowledge the use of data collection toolkits (DOI) from H3ABioNet/H3Africa which can be found, including associated references, at https://GitHub.com/h3abionet, funded by the H3Africa NIH grant U24HG006941.&quot;
 
 3. In the references section:
-  &quot;Lyndon Zass, Katherine Johnston, Alia Benkahla, Melek Chaouch, Judit Kumuthini, Fouzia Radouani, Liberata Alexander Mwita, Nihad Alsayed, Taryn Allie, Dassen Sathan, Upendo Masamu, Milaine Sergine Seuneu Tchamga, Tsaone Tamuhla, Chaimae Samtal, Victoria Nembaware, Zoe Gill, Samah Ahmed, Yosr Hamdi, Faisal Fadlelmola, Nicki Tiffin, Nicola Mulder; “Developing Clinical Phenotype Data Collection Standards for Research in Africa”; https://doi.org/10.1155/2023/6693323&quot;
+   
+&quot;Lyndon Zass, Katherine Johnston, Alia Benkahla, Melek Chaouch, Judit Kumuthini, Fouzia Radouani, Liberata Alexander Mwita, Nihad Alsayed, Taryn Allie, Dassen Sathan, Upendo Masamu, Milaine Sergine Seuneu Tchamga, Tsaone Tamuhla, Chaimae Samtal, Victoria Nembaware, Zoe Gill, Samah Ahmed, Yosr Hamdi, Faisal Fadlelmola, Nicki Tiffin, Nicola Mulder; “Developing Clinical Phenotype Data Collection Standards for Research in Africa”; https://doi.org/10.1155/2023/6693323&quot;
 
 **Contributors**
 
