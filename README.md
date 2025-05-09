@@ -25,9 +25,10 @@ Read up on the history and methodology of our project in our full documentation 
 
 **Want to work with us? How to get involved**. We encourage participation from the community! If you have a bug, suggestion or idea, browse the open issues before opening a new one. Please use the GitHub issue tracker to submit any comments or suggestions. We value the continued maintenance and improvement of the developed packages, and appreciate your feedback.
 
-**How to connect with us.** Want to ask a question regarding this work? We&#39;d love to hear from you. Please visit our [Helpdesk](https://helpdesk.h3abionet.org/), and log a ticket or query under the Phenotype Standards queue.
+**How to connect with us.** Want to ask a question regarding this work? We&#39;d love to hear from you. Please visit our [Helpdesk](https://helpdesk.afrigen-d.org/helpdesk/), and log a ticket or query under the Phenotype Standards queue.
 
-**Ways to acknowledge use of H3ABioNet toolkits.**
+**Ways you can acknowledge use of our Data Collection Toolkits.**
+If you make use of our data collection toolkits, acknowledging and citing them in your publications would be very helpful to furthering adoption and increasing the validity of these tools so please make use of these details below: 
 
 1. In methods section of publications:
 
