@@ -39,8 +39,12 @@ features:
 The Phenotype Toolkits offer standardised data collection protocols for researchers in the genomic and health field (particularly in the African continent). The toolkits enable swift spin up of clinical data collection databases through provision of REDCap .xml files or data dictionaries for other software platforms, helping ensure that essential data variables are collected in a standardised manner, aligned with other research groups making use of these toolkits, and also incorporating international annotations of such variables, thereby making downstream data harmonisation efforts successful.
 
 
-## Data Types
+### NEW Developments
 
+The incorporation of the African Populations ontology lookup [AfPo](https://github.com/h3abionet/afpo) to ascribe population data to research participants. 
+All toolkits now fully translated into French.
+
+	
 ### Primary Datasets
 
 - **Whole Genome Sequencing (W9999999GS)**: {{ WGS_DESCRIPTION }}
