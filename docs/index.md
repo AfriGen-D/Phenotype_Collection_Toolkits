@@ -81,8 +81,7 @@ In acknowledgements section:
 In the references section:
 "Lyndon Zass, Katherine Johnston, Alia Benkahla, Melek Chaouch, Judit Kumuthini, Fouzia Radouani, Liberata Alexander Mwita, Nihad Alsayed, Taryn Allie, Dassen Sathan, Upendo Masamu, Milaine Sergine Seuneu Tchamga, Tsaone Tamuhla, Chaimae Samtal, Victoria Nembaware, Zoe Gill, Samah Ahmed, Yosr Hamdi, Faisal Fadlelmola, Nicki Tiffin, Nicola Mulder; “Developing Clinical Phenotype Data Collection Standards for Research in Africa”; https://doi.org/10.1155/2023/6693323"
 
-If you use {{ PROJECT_NAME }} in your research, please cite:
-
+<!--
 ```bibtex
 @article{{{ CITATION_KEY }},
   title={{{ CITATION_TITLE }}},
@@ -91,8 +90,7 @@ If you use {{ PROJECT_NAME }} in your research, please cite:
   year={{{ CITATION_YEAR }}},
   doi={{{ CITATION_DOI }}}
 }
-```
-
+```-->
 ### Other users
 
 # Toolkits
@@ -164,3 +162,5 @@ Want to work with us? How to get involved. We encourage participation from the c
 - [GitHub Issues](https://github.com/AfriGen-D/Phenotype_Collection_Toolkits/issues) - Technical support
 - [Helpdesk](https://helpdesk.afrigen-d.org) - General inquiries
 - [AfriGen-D](https://afrigen-d.org) - Project homepage
+
+# FAQ
