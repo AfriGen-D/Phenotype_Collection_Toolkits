@@ -39,10 +39,7 @@ features:
 The Phenotype Toolkits offer standardised data collection protocols for researchers in the genomic and health field (particularly in the African continent). The toolkits enable swift spin up of clinical data collection databases through provision of REDCap .xml files or data dictionaries for other software platforms, helping ensure that essential data variables are collected in a standardised manner, aligned with other research groups making use of these toolkits, and also incorporating international annotations of such variables, thereby making downstream data harmonisation efforts successful.
 
 
-### 
-    <span style="text-decoration:underline;">NEW developments</span>:
-
-
+### 	<span style="text-decoration:underline;">NEW developments:</span>
 
 * the incorporation of the African Populations ontology lookup ([AfPO](https://github.com/h3abionet/afpo)) to ascribe population data to research participants
 * all toolkits now fully translated into French
@@ -50,18 +47,9 @@ The Phenotype Toolkits offer standardised data collection protocols for research
 
 ### 	<span style="text-decoration:underline;">History</span>
 
+The Human Heredity and Health in Africa (H3Africa) consortium was established to drive novel and innovative genomics research in Africa and build capacity on the continent. As part of the consortium, the H3Africa Bioinformatics Network (H3ABioNet) was formed to support these efforts, with a particular focus on the production and sharing of FAIR (Findable, Accessible, Interoperable, and Reproducible) data. To facilitate the standardisation and interstudy sharing of phenotypic data both within H3Africa and across consortiums. A Phenotype Harmonisation Working Group was established to enable harmonised phenotypic data collection across diverse studies by defining a core set of commonly collected phenotypes and associated data collection protocols. Initial development focused on a Core Phenotype Toolkit, drawing on and aligning with the PhenX Toolkit to promote interoperability. This work was subsequently expanded to develop domain- and disease-specific phenotype toolkits through consensus mapping across H3Africa projects, identification of shared phenotypes, and selection, adaptation, or development of appropriate protocols suitable for African research settings. All toolkits underwent expert review by African domain specialists, were annotated using international ontologies, and were accompanied by clear data collection guidelines, ensuring their robustness, contextual relevance, and utility for harmonised research both within and beyond H3Africa.
 
-    The Human Heredity and Health in Africa (H3Africa) consortium was established to drive novel and innovative genomics research in Africa and build capacity on the continent. As part of the consortium, the H3Africa Bioinformatics Network (H3ABioNet) was formed to support these efforts, with a particular focus on the production and sharing of FAIR (Findable, Accessible, Interoperable, and Reproducible) data. To facilitate the standardisation and interstudy sharing of phenotypic data both within H3Africa and across consortiums. A Phenotype Harmonisation Working Group was established to enable harmonised phenotypic data collection across diverse studies by defining a core set of commonly collected phenotypes and associated data collection protocols. Initial development focused on a Core Phenotype Toolkit, drawing on and aligning with the PhenX Toolkit to promote interoperability. This work was subsequently expanded to develop domain- and disease-specific phenotype toolkits through consensus mapping across H3Africa projects, identification of shared phenotypes, and selection, adaptation, or development of appropriate protocols suitable for African research settings. All toolkits underwent expert review by African domain specialists, were annotated using international ontologies, and were accompanied by clear data collection guidelines, ensuring their robustness, contextual relevance, and utility for harmonised research both within and beyond H3Africa.
-
-
-    
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image1.png "image_tooltip")
-
-	
+  	
 ### Primary Datasets
 
 - **Whole Genome Sequencing (W9999999GS)**: {{ WGS_DESCRIPTION }}
