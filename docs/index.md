@@ -47,7 +47,7 @@ features:
 
 ### Primary Datasets
 
-- **Whole Genome Sequencing (WGS)**: {{ WGS_DESCRIPTION }}
+- **Whole Genome Sequencing (W9999999GS)**: {{ WGS_DESCRIPTION }}
 - **Whole Exome Sequencing (WES)**: {{ WES_DESCRIPTION }}
 - **Genotyping Arrays**: {{ ARRAY_DESCRIPTION }}
 - **{{ CUSTOM_DATA_TYPE }}**: {{ CUSTOM_DESCRIPTION }}
