@@ -19,9 +19,9 @@ The developed sample CRFs can be used on the ground for paper-based data collect
 
 **Figure 2.** Toolkit components and use.
 
-**Documentation**
-
-Read up on the history and methodology of our project in our full documentation page, [here](https://h3abionet.org/images/DataAndStandards/DataStandards/h3abionetphenstddoc_v1.1.pdf).
+**Toolkit Translations**
+Version 3.0 of the toolkits has included a French translation of all the data collection instruments - if you would like to learn more about how translations are incorporated into REDCap projects through the Multi-Language Management you can view the REDCap guide [here] (https://redcap.h3abionet.org/redcap/redcap_v17.0.1//Resources/misc/mlm-guide.pdf)
+and also watch the training [video here] (https://redcap.vumc.org/consortium/videoplayer.php?video=mlm01.mp4&title=Multi-Language%20Management&referer=redcap.h3abionet.org).
 
 **Want to work with us? How to get involved**. We encourage participation from the community! If you have a bug, suggestion or idea, browse the open issues before opening a new one. Please use the GitHub issue tracker to submit any comments or suggestions. We value the continued maintenance and improvement of the developed packages, and appreciate your feedback.
 
@@ -32,11 +32,11 @@ If you make use of our data collection toolkits, acknowledging and citing them i
 
 1. In methods section of publications:
 
-&quot;The data collection toolkits (DOI) used were developed by H3ABioNet/H3Africa and were compiled using a variety of resources described in https://GitHub.com/h3abionet/h3aphenstds and, from 2024 onwards, https://github.com/AfriGen-D/Phenotype_Collection_Toolkits. &quot;.
+&quot;The data collection toolkits (https://doi.org/10.25375/uct.21152731.v1)used were originally developed by H3ABioNet/H3Africa and later AfriGen-D and were compiled using a variety of resources described in https://GitHub.com/h3abionet/h3aphenstds and, from 2024 onwards, https://github.com/AfriGen-D/Phenotype_Collection_Toolkits.” &quot;.
 
 2. In acknowledgements section:
 
-&quot;We acknowledge the use of data collection toolkits (DOI) from H3ABioNet/H3Africa which can be found, including associated references, at https://GitHub.com/h3abionet, funded by the H3Africa NIH grant U24HG006941.&quot;
+&quot;We acknowledge the use of data collection toolkits (https://doi.org/10.25375/uct.21152731.v1) from H3ABioNet/H3Africa which can be found, including associated references, at https://GitHub.com/h3abionet, funded by the H3Africa NIH grant U24HG006941; and AfriGen-D which can be found, including associated references, at https://github.com/AfriGen-D, funded by the AfriGen-D NIH grant U24HG012750.&quot;
 
 3. In the references section:
    
