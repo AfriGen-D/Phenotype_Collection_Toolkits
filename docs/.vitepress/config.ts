@@ -2,9 +2,24 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: 'Phenotype Collection Toolkits',
-  description: 'Standardised data collection protocols for researchers in the genomic and health field.'
+  description: 'Standardised data collection protocols for researchers in the genomic and health field.',
   base: '/Phenotype_Collection_Toolkits/',
   lang: 'en-US',
+
+  head: [
+    [
+      'script',
+      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-EHPFKMBX0J' }
+    ],
+    [
+      'script',
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-EHPFKMBX0J');
+    ]
+  ],
 
   themeConfig: {
     logo: '/logo.png',
