@@ -13,11 +13,7 @@ The toolkits illustrated in **Figure 1** below (.xlsx data dictionaries; .xml re
 
 **Figure 1.** Toolkit domains.
 
-The developed sample CRFs can be used on the ground for paper-based data collection from participants, alongside the associated guidelines, whilst the XML templates imported directly into REDCap will set up a new project with the toolkit compiled and ready for use as a database for direct data capture or use in conjunction with the paper CRFs. The data dictionaries provide the necessary metadata for all the data elements/variables and can be imported into REDCap or replicated in your desired electronic data management platform. All the components of a given toolkit are illustrated in **Figure 2** below.
-
-![Fig2](https://h3abionet.org/images/DataAndStandards/DataStandards/figure-2.png)
-
-**Figure 2.** Toolkit components and use.
+The XML templates imported directly into REDCap will set up a new project with the toolkit compiled and ready for use as a database for direct data capture or use in conjunction with the paper CRFs. The data dictionaries provide the necessary metadata for all the data elements/variables and can be imported into REDCap or replicated in your desired electronic data management platform. Guidelines provided with each toolkit describe in details data elements and give guidance on recommended data collection methods.
 
 **Toolkit Translations**
 Version 3.0 of the toolkits has included a French translation of all the data collection instruments - if you would like to learn more about how translations are incorporated into REDCap projects through the Multi-Language Management you can view the REDCap guide [here] (https://redcap.h3abionet.org/redcap/redcap_v17.0.1//Resources/misc/mlm-guide.pdf)
@@ -32,7 +28,7 @@ If you make use of our data collection toolkits, acknowledging and citing them i
 
 1. In methods section of publications:
 
-&quot;The data collection toolkits (https://doi.org/10.25375/uct.21152731.v1)used were originally developed by H3ABioNet/H3Africa and later AfriGen-D and were compiled using a variety of resources described in https://GitHub.com/h3abionet/h3aphenstds and, from 2024 onwards, https://github.com/AfriGen-D/Phenotype_Collection_Toolkits.” &quot;.
+&quot;The data collection toolkits (https://doi.org/10.25375/uct.21152731.v1) used were originally developed by H3ABioNet/H3Africa and later AfriGen-D and were compiled using a variety of resources described in https://GitHub.com/h3abionet/h3aphenstds and, from 2024 onwards, https://github.com/AfriGen-D/Phenotype_Collection_Toolkits.” &quot;.
 
 2. In acknowledgements section:
 
