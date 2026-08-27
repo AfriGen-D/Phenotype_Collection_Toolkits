@@ -9,7 +9,7 @@ The benefits of using these toolkits are multi-fold;
 
 The toolkits illustrated in **Figure 1** below (.xlsx data dictionaries; .xml redcap project templates; .pdf case report forms (CRFs) and .pdf toolkit guidelines) can be found under the corresponding folders.
 
-![Fig1](https://www.h3abionet.org/images/DataAndStandards/DataStandards/phenotype_modules.png)
+![Fig1](https://github.com/AfriGen-D/Phenotype_Collection_Toolkits/blob/main/docs/images/Fig2.jpg)
 
 **Figure 1.** Toolkit domains.
 
