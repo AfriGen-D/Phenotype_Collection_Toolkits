@@ -1,0 +1,22 @@
+{
+  "name": "phenotype-collection-toolkits-docs",
+  "version": "3.0.0",
+  "private": true,
+  "description": "Phenotype Collection Toolkits - Documentation website",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  },
+  "author": "AfriGen-D Project",
+  "license": "MIT",
+  "homepage": "https://afrigen-d.github.io/Phenotype_Collection_Toolkits/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AfriGen-D/Phenotype_Collection_Toolkits.git"
+  }
+}

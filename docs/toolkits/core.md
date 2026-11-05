@@ -1,0 +1,49 @@
+# 00: Core Phenotype Toolkit
+
+The H3Africa core phenotypes can be used to collect essential phenotypes related to African health and biomedical research. These phenotypes were prioritised based on the overlap in phenotype data collection across multiple research projects being conducted across the African continent, in various disease fields. Phenotypes include information related to a participant’s demographics, anthropometrics, tobacco and alcohol use, and disease history. 
+
+## Phenotypes
+
+Phenotype protocols contained in the toolkit are illustrated in the figure below:
+
+![Phenotype protocols in the Core Phenotype Toolkit](/images/toolkits/core.png)
+
+## Administration
+
+The phenotype protocols contained in the toolkit range from Interviewer/Self-administered questionnaires to clinically-administered and bioassay/lab-based assessments. The toolkit is applicable to human participants of all life stages, though some phenotype protocols are age-specific. For more information on administration of the toolkit, see the toolkit guideline.
+
+## References
+
+The toolkit consists of both existing and novel data collection standards, and was based on several existing resources. These resources are listed below:
+
+1. AWI-Gen Collaborative Centre - Cardiometabolic Disease Research Protocols
+2. Protocol - Blood Pressure (www.phenxtoolkit.org/protocols/view/40301)
+3. Protocol - Cigarette Smoking Status (www.phenxtoolkit.org/protocols/view/30604)
+4. Protocol - Tobacco - 30-Day Quantity and Frequency (www.phenxtoolkit.org/protocols/view/30804) 
+5. Protocol - Alcohol - Lifetime Use (www.phenxtoolkit.org/protocols/view/30101) 
+6. Protocol - Substances - 30-Day Frequency (www.phenxtoolkit.org/protocols/view/31302)
+7. Protocol - Medication Inventory (www.phenxtoolkit.org/protocols/view/140301) 
+8. Protocol - Personal History of Type I and Type II Diabetes (www.phenxtoolkit.org/protocols/view/140501) 
+9. Protocol - Personal History of Kidney Failure (www.phenxtoolkit.org/protocols/view/140601) 
+10. Protocol - Arrhythmia (www.phenxtoolkit.org/protocols/view/41101) 
+11. Protocol - Rheumatic Fever/Rheumatic Heart Disease (www.phenxtoolkit.org/protocols/view/41401) 
+12. Protocol - History of Stroke (www.phenxtoolkit.org/protocols/view/130301)
+
+## Download
+
+**Current version:** v3.0 · [Open the toolkit folder on GitHub](https://github.com/AfriGen-D/Phenotype_Collection_Toolkits/tree/main/Core%20Phenotype%20Toolkit%20v3.0)
+
+| File | Description |
+|---|---|
+| [Core_Phenotype_Toolkit_v3.REDCap.xml](https://github.com/AfriGen-D/Phenotype_Collection_Toolkits/blob/main/Core%20Phenotype%20Toolkit%20v3.0/Core_Phenotype_Toolkit_v3.REDCap.xml) | REDCap project file (.xml) – create a new REDCap project from this |
+| [Core_Phenotype_Toolkit_v3_DD.csv](https://github.com/AfriGen-D/Phenotype_Collection_Toolkits/blob/main/Core%20Phenotype%20Toolkit%20v3.0/Core_Phenotype_Toolkit_v3_DD.csv) | Data dictionary |
+| [Core_Phenotype_Toolkit_v3_Guide.pdf](https://github.com/AfriGen-D/Phenotype_Collection_Toolkits/blob/main/Core%20Phenotype%20Toolkit%20v3.0/Core_Phenotype_Toolkit_v3_Guide.pdf) | Guideline – English (PDF) |
+| [Core_Phenotype_Toolkit_v3_Eng.pdf](https://github.com/AfriGen-D/Phenotype_Collection_Toolkits/blob/main/Core%20Phenotype%20Toolkit%20v3.0/Core_Phenotype_Toolkit_v3_Eng.pdf) | Annotated case report form – English (PDF) |
+| [Core_Phenotype_Toolkit_v3_Fr.pdf](https://github.com/AfriGen-D/Phenotype_Collection_Toolkits/blob/main/Core%20Phenotype%20Toolkit%20v3.0/Core_Phenotype_Toolkit_v3_Fr.pdf) | Annotated case report form – French (PDF) |
+| [Core_Phenotype_Toolkit_v3_Translation_Fr.csv](https://github.com/AfriGen-D/Phenotype_Collection_Toolkits/blob/main/Core%20Phenotype%20Toolkit%20v3.0/Core_Phenotype_Toolkit_v3_Translation_Fr.csv) | French translation file (REDCap Multi-Language Management) |
+
+::: tip Individual instruments
+Individual instrument ZIP files (for adding single forms to an existing REDCap project) are available for the v2.0 toolkits in the [Archived folder](https://github.com/AfriGen-D/Phenotype_Collection_Toolkits/tree/main/Archived).
+:::
+
+New to REDCap? See the [REDCap Implementation Guide](/guide/redcap-setup).

@@ -1,0 +1,44 @@
+/* AfriGen-D brand colours, taken from the logo */
+:root {
+  --vp-c-brand-1: #c8000f;
+  --vp-c-brand-2: #a8000d;
+  --vp-c-brand-3: #d7000f;
+  --vp-c-brand-soft: rgba(215, 0, 15, 0.1);
+
+  --vp-home-hero-name-color: #c8000f;
+  --vp-home-hero-image-background-image: none;
+  --vp-home-hero-image-filter: none;
+}
+
+.dark {
+  --vp-c-brand-1: #ff5a5f;
+  --vp-c-brand-2: #ff7a7e;
+  --vp-c-brand-3: #d7000f;
+  --vp-c-brand-soft: rgba(255, 90, 95, 0.16);
+  --vp-home-hero-name-color: #ff5a5f;
+}
+
+/* Wider logo in the top bar */
+.VPNavBarTitle .logo {
+  height: 36px;
+}
+
+/* Hero logo: white card so it reads well in dark mode too */
+.VPHero .image-src {
+  max-width: 420px;
+  border-radius: 12px;
+  background: #fff;
+  padding: 12px;
+}
+
+/* Gold accent line under the nav, from the logo's hyphen */
+.VPNav {
+  border-bottom: 3px solid #ffd100;
+}
+
+/* Screenshots in the REDCap guide */
+.vp-doc img {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 6px;
+  margin: 12px 0;
+}
