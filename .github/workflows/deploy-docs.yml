@@ -1,0 +1,62 @@
+name: Deploy documentation site
+
+on:
+  push:
+    branches: [main]
+    paths: ['docs/**', '.github/workflows/deploy-docs.yml']
+  pull_request:
+    branches: [main]
+    paths: ['docs/**', '.github/workflows/deploy-docs.yml']
+  workflow_dispatch: # lets you run it manually from the Actions tab
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  # Builds the site on every pull request (as a check) and on main
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # needed for "last updated" dates
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: docs/package-lock.json
+
+      - uses: actions/configure-pages@v5
+        if: github.event_name != 'pull_request'
+
+      - name: Install dependencies
+        working-directory: docs
+        run: npm ci
+
+      - name: Build with VitePress
+        working-directory: docs
+        run: npm run docs:build
+
+      - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request'
+        with:
+          path: docs/.vitepress/dist
+
+  # Publishes only from main
+  deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
